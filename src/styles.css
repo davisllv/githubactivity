@@ -1,0 +1,113 @@
+/* ====================RESET==================== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* ====================CONTAINER==================== */
+.container{
+
+  font-family: 'Arial';
+  background-color: #F0F8FF;
+  height: 968px;
+}
+
+.container h4{
+  font-size: 1.25rem;
+  margin: 3rem 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ====================INPUTS==================== */
+
+.inpt-box input{
+  border: 2px solid #A9A9A9;
+  width: 19vw;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* ====================BUTTON==================== */
+.inpt-box button{
+  border: 1px solid #228b22c5;
+  width: 19vw;
+  height: 2.5rem;
+  border-radius: 6px;
+  background: #228B22;
+  color: whitesmoke;
+}
+
+.inpt-box button:hover{
+  font-weight: bold;
+  background: #2fbe2f;
+  box-shadow: 0 0 0.2em black;
+}
+/* ====================LIST-BOXES==================== */
+.list-box{
+  padding: 1rem;
+  margin-top: 3rem;
+  border: 2px solid #A9A9A9;
+  width: 60vw;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.list-box ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.list-box ul li:not(:last-child){
+  margin-bottom: 1rem;
+}
+.list-box ul li span{
+  max-width: 8.5rem;
+  word-break: break-all;
+}
+
+.list-box img {
+  height: 80px;
+  clip-path: circle();
+  
+}
+
+.list-box button{
+  width: 8rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: #DC143C;
+  color: white;
+  border: none;
+}
+.list-box button:hover{
+  background: #ee1616;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 0.2em black;
+}
+
+.noUserBox p{
+  color: #778899;
+  font-family: 'Calibri';
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+.noUserBox p + p{
+  margin: 1rem 0;
+}
