@@ -1,3 +1,9 @@
+# About
+
+This project is to receive the users information from github and his repositories, if they exists.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
