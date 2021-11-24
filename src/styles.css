@@ -8,6 +8,7 @@ ul{
   list-style: none;
 }
 a{
+  color: inherit;
   text-decoration: none;
 }
 /* ====================CONTAINER==================== */
@@ -21,6 +22,9 @@ a{
 .container h4{
   font-size: 1.25rem;
   margin: 3rem 0;
+  font-family: 'Calibri';
+  font-size: 1.5rem;
+  color: black;
 }
 
 .content{
@@ -111,3 +115,58 @@ a{
 .noUserBox p + p{
   margin: 1rem 0;
 }
+/* ====================ISSUE LIST BOX==================== */
+.issues-list{
+  padding: 1rem;
+  margin-top: 3rem;
+  width: 80vw;
+}
+
+.issues-list ul li {
+  border: 3px solid #191970;
+  background-color: #0000CD;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.user-name-div, .issue-title-div{
+  display: flex;
+  flex-direction: column;
+}
+.user-name-div{
+  margin-right: 6rem;
+}
+.user-name-div label,
+.issue-title-div label{
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+.issues-list img {
+  height: 5.7rem;
+  clip-path: circle();
+  margin-right: 3rem;
+  
+}
+
+.issues-list ul li span:nth-child(3){
+  margin-left: 10rem;
+  max-width: 100rem;
+}
+
+.noUserBox.issue{
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #A9A9A9;
+  border-radius: 8px;
+  background-color: white;
+}
+
+
